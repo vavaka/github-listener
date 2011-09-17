@@ -98,7 +98,7 @@ GEM
     rspec-expectations (2.6.0)
       diff-lcs (~> 1.1.2)
     rspec-mocks (2.6.0)
-    rspec-rails (2.6.0)
+    rspec-rails (2.6.1)
       actionpack (~> 3.0)
       activesupport (~> 3.0)
       railties (~> 3.0)
@@ -138,7 +138,7 @@ DEPENDENCIES
   github_hook!
   jquery-rails
   rails (= 3.1.0)
-  rspec-rails (= 2.6.0)
+  rspec-rails (~> 2.6.1)
   sass-rails (~> 3.1.0)
   sqlite3
   therubyracer
