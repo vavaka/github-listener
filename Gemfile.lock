@@ -1,6 +1,6 @@
 GIT
-  remote: git://github.com/relevance/github_hook.git
-  revision: c7cc76a78016a92f12268fc03b44aa5836e662b1
+  remote: git://github.com/vavaka/github_hook.git
+  revision: 04b07cacb3c29e6d29bad8e0b1d56ee2d6c9c9a3
   specs:
     github_hook (0.7.0)
 
