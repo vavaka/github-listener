@@ -6,7 +6,7 @@ gem 'rails', '3.1.0'
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
-gem "github_hook", :git => "git://github.com/vavaka/github_hook.git"
+gem "github_hook", :git => "git://github.com/relevance/github_hook.git"
 
 
 # Gems used only for assets and not required
@@ -19,8 +19,6 @@ end
 
 gem 'jquery-rails'
 
-gem 'execjs'
-gem 'therubyracer'
 
 # Use unicorn as the web server
 # gem 'unicorn'
@@ -30,6 +28,13 @@ gem 'therubyracer'
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
+
+group :development do
+  gem 'execjs'
+  gem 'therubyracer'
+
+  gem "rspec-rails", "2.6.0"
+end
 
 group :test do
   # Pretty printed test output
