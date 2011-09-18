@@ -43,7 +43,7 @@ describe Hook do
       message = mock()
       message.should_receive(:deliver).once
 
-      HookMailer.should_receive(:mail).with({:payload => @payload, :attachments => [{:name => "en.yml", :data => "123"}, {:name => "de.yml", :data => "456"}]}).and_return(message)
+      HookMailer.should_receive(:hook_email).with({:payload => @payload, :attachments => [{:name => "en.yml", :data => "123"}, {:name => "de.yml", :data => "456"}]}).and_return(message)
       @hook.handle
     end
   end
