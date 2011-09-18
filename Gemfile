@@ -33,7 +33,10 @@ group :development do
   gem 'execjs'
   gem 'therubyracer'
 
-  gem "rspec-rails", "~> 2.6.1"
+  gem 'rspec-rails'
+
+  gem 'pry'
+  gem 'hirb'
 end
 
 group :test do
