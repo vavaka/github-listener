@@ -37,6 +37,6 @@ class Hook
       attachments << {:name => File.basename(file_path), :data => raw_data}
     end
 
-    HookMailer.mail(:payload => @payload, :attachments => attachments)
+    HookMailer.mail(:payload => @payload, :attachments => attachments).deliver
   end
 end

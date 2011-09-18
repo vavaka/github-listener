@@ -40,7 +40,10 @@ describe Hook do
       Github.should_receive(:fetch_raw_data).with({:user=>"vavaka", :repo=>"github-hooks-test", :branch=>"master", :path=>"config/locales/de.yml"}).and_return("456")
       @hook.should_receive(:save_to_tmp).with("config/locales/de.yml", "456")
 
-      HookMailer.should_receive(:mail).with({:payload => @payload, :attachments => [{:name => "en.yml", :data => "123"}, {:name => "de.yml", :data => "456"}]})
+      message = mock()
+      message.should_receive(:deliver).once
+
+      HookMailer.should_receive(:mail).with({:payload => @payload, :attachments => [{:name => "en.yml", :data => "123"}, {:name => "de.yml", :data => "456"}]}).and_return(message)
       @hook.handle
     end
   end
