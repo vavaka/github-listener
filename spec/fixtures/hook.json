@@ -88,6 +88,8 @@
         },
         {
             "modified": [
+                "README",
+                "config/application.rb",
                 "config/locales/de.yml"
             ],
             "author": {

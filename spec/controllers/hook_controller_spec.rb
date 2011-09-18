@@ -1,16 +1,16 @@
 require 'spec_helper'
 
 describe HookController do
-  describe "create" do
+  describe "POST create" do
     it "should not create new Hook instance if payload is not specified" do
       Hook.should_not_receive(:new)
 
       post :create
     end
 
-    it "should fetch affected localization files if payload specified" do
+    it "should handle hook if payload is specified" do
       hook = mock("hook")
-      hook.should_receive(:fetch_affected_i18n_files)
+      hook.should_receive(:handle)
       Hook.should_receive(:new).and_return(hook)
 
       post :create, :payload => "valid_data"
@@ -22,9 +22,9 @@ describe HookController do
       post :create, :payload => "invalid_data"
     end
 
-    it "should handle errors during fetching affected localization files" do
+    it "should handle errors during hook handling" do
       hook = mock("hook")
-      hook.should_receive(:fetch_affected_i18n_files).and_raise(SocketError)
+      hook.should_receive(:handle).and_raise(SocketError)
       Hook.should_receive(:new).and_return(hook)
 
       post :create, :payload => "valid_data"

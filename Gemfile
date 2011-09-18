@@ -6,7 +6,7 @@ gem 'rails', '3.1.0'
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
-gem "github_hook", :git => "git://github.com/vavaka/github_hook.git"
+gem 'github_hook', :git => 'git://github.com/vavaka/github_hook.git'
 
 
 # Gems used only for assets and not required
@@ -34,6 +34,7 @@ group :development do
   gem 'therubyracer'
 
   gem 'rspec-rails'
+  gem 'email_spec'
 
   gem 'pry'
   gem 'hirb'
