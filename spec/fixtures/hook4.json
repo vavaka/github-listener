@@ -1,0 +1,141 @@
+{
+    "pusher": {
+        "email": "vavaka@gmail.com",
+        "name": "vavaka"
+    },
+    "forced": false,
+    "created": false,
+    "ref": "refs/heads/master",
+    "deleted": false,
+    "compare": "https://github.com/vavaka/github-hooks-test/compare/0b8755a...773547e",
+    "before": "0b8755a1fdbc8ed5ff4fadfa7e64439930a2da22",
+    "base_ref": null,
+    "after": "773547eb0430d152ef7f5946e66aef7d90104286",
+    "repository": {
+        "pushed_at": "2011/09/18 05:59:35 -0700",
+        "homepage": "",
+        "description": "",
+        "owner": {
+            "email": "vavaka@gmail.com",
+            "name": "vavaka"
+        },
+        "watchers": 1,
+        "created_at": "2011/09/17 00:13:09 -0700",
+        "open_issues": 0,
+        "url": "https://github.com/vavaka/github-hooks-test",
+        "has_wiki": true,
+        "size": 144,
+        "fork": false,
+        "forks": 1,
+        "language": "Ruby",
+        "name": "github-hooks-test",
+        "has_issues": true,
+        "private": false,
+        "has_downloads": true
+    },
+    "commits": [
+        {
+            "modified": [],
+            "author": {
+                "username": "vavaka",
+                "email": "vavaka@gmail.com",
+                "name": "Vladimir Kuznetsov"
+            },
+            "message": "german localization file has been added",
+            "added": [
+                "config/locales/de.yml"
+            ],
+            "url": "https://github.com/vavaka/github-hooks-test/commit/f3f2a892ee395d41069ed5fd1b54953a0c465940",
+            "distinct": true,
+            "timestamp": "2011-09-18T05:53:20-07:00",
+            "id": "f3f2a892ee395d41069ed5fd1b54953a0c465940",
+            "removed": []
+        },
+        {
+            "modified": [],
+            "author": {
+                "username": "vavaka",
+                "email": "vavaka@gmail.com",
+                "name": "Vladimir Kuznetsov"
+            },
+            "message": "registration mailer has been deleted",
+            "added": [],
+            "url": "https://github.com/vavaka/github-hooks-test/commit/3b30e47ed4420a509a95859c495122ed43e372ef",
+            "distinct": true,
+            "timestamp": "2011-09-18T05:54:35-07:00",
+            "id": "3b30e47ed4420a509a95859c495122ed43e372ef",
+            "removed": [
+                "app/mailers/registration.rb",
+                "test/functional/registration_test.rb"
+            ]
+        },
+        {
+            "modified": [
+                "config/locales/en.yml"
+            ],
+            "author": {
+                "username": "vavaka",
+                "email": "vavaka@gmail.com",
+                "name": "Vladimir Kuznetsov"
+            },
+            "message": "fixed licalization 'crual' to 'cruel'",
+            "added": [],
+            "url": "https://github.com/vavaka/github-hooks-test/commit/b5ad4030fa9f83118b1c85345ee23a9786298eda",
+            "distinct": true,
+            "timestamp": "2011-09-18T05:55:40-07:00",
+            "id": "b5ad4030fa9f83118b1c85345ee23a9786298eda",
+            "removed": []
+        },
+        {
+            "modified": [
+                "config/locales/de.yml"
+            ],
+            "author": {
+                "username": "vavaka",
+                "email": "vavaka@gmail.com",
+                "name": "Vladimir Kuznetsov"
+            },
+            "message": "'bye' localization string has been removed from german localization",
+            "added": [],
+            "url": "https://github.com/vavaka/github-hooks-test/commit/18331b5f45e13802a27d4363fb7d8bb9687272f7",
+            "distinct": true,
+            "timestamp": "2011-09-18T05:56:58-07:00",
+            "id": "18331b5f45e13802a27d4363fb7d8bb9687272f7",
+            "removed": []
+        },
+        {
+            "modified": [],
+            "author": {
+                "username": "vavaka",
+                "email": "vavaka@gmail.com",
+                "name": "Vladimir Kuznetsov"
+            },
+            "message": "english localization file has been removed",
+            "added": [],
+            "url": "https://github.com/vavaka/github-hooks-test/commit/a6a0f07b64ba1016f81d98216b8f846d3dd61564",
+            "distinct": true,
+            "timestamp": "2011-09-18T05:57:51-07:00",
+            "id": "a6a0f07b64ba1016f81d98216b8f846d3dd61564",
+            "removed": [
+                "config/locales/en.yml"
+            ]
+        },
+        {
+            "modified": [],
+            "author": {
+                "username": "vavaka",
+                "email": "vavaka@gmail.com",
+                "name": "Vladimir Kuznetsov"
+            },
+            "message": "US localization file has been added",
+            "added": [
+                "config/locales/us.yml"
+            ],
+            "url": "https://github.com/vavaka/github-hooks-test/commit/773547eb0430d152ef7f5946e66aef7d90104286",
+            "distinct": true,
+            "timestamp": "2011-09-18T05:59:19-07:00",
+            "id": "773547eb0430d152ef7f5946e66aef7d90104286",
+            "removed": []
+        }
+    ]
+}

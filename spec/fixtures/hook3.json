@@ -1,0 +1,78 @@
+{
+    "pusher": {
+        "email": "vavaka@gmail.com",
+        "name": "vavaka"
+    },
+    "forced": false,
+    "created": false,
+    "ref": "refs/heads/master",
+    "deleted": false,
+    "compare": "https://github.com/vavaka/github-hooks-test/compare/fb96aa5...0b8755a",
+    "before": "fb96aa599163b668bcedcd8195f2af77823c4664",
+    "base_ref": null,
+    "after": "0b8755a1fdbc8ed5ff4fadfa7e64439930a2da22",
+    "repository": {
+        "pushed_at": "2011/09/18 05:47:24 -0700",
+        "homepage": "",
+        "description": "",
+        "owner": {
+            "email": "vavaka@gmail.com",
+            "name": "vavaka"
+        },
+        "watchers": 1,
+        "created_at": "2011/09/17 00:13:09 -0700",
+        "open_issues": 0,
+        "url": "https://github.com/vavaka/github-hooks-test",
+        "has_wiki": true,
+        "size": 144,
+        "fork": false,
+        "forks": 1,
+        "language": "Ruby",
+        "name": "github-hooks-test",
+        "has_issues": true,
+        "private": false,
+        "has_downloads": true
+    },
+    "commits": [
+        {
+            "modified": [],
+            "author": {
+                "username": "vavaka",
+                "email": "vavaka@gmail.com",
+                "name": "Vladimir Kuznetsov"
+            },
+            "message": "registration mailer has been added",
+            "added": [
+                "app/mailers/registration.rb",
+                "test/functional/registration_test.rb"
+            ],
+            "url": "https://github.com/vavaka/github-hooks-test/commit/83130411d4140947f7001a5b997cd691bc21a177",
+            "distinct": true,
+            "timestamp": "2011-09-18T05:45:56-07:00",
+            "id": "83130411d4140947f7001a5b997cd691bc21a177",
+            "removed": []
+        },
+        {
+            "modified": [],
+            "author": {
+                "username": "vavaka",
+                "email": "vavaka@gmail.com",
+                "name": "Vladimir Kuznetsov"
+            },
+            "message": "registration controller has been added",
+            "added": [
+                "app/assets/javascripts/registration.js.coffee",
+                "app/assets/stylesheets/registration.css.scss",
+                "app/controllers/registration_controller.rb",
+                "app/helpers/registration_helper.rb",
+                "test/functional/registration_controller_test.rb",
+                "test/unit/helpers/registration_helper_test.rb"
+            ],
+            "url": "https://github.com/vavaka/github-hooks-test/commit/0b8755a1fdbc8ed5ff4fadfa7e64439930a2da22",
+            "distinct": true,
+            "timestamp": "2011-09-18T05:47:07-07:00",
+            "id": "0b8755a1fdbc8ed5ff4fadfa7e64439930a2da22",
+            "removed": []
+        }
+    ]
+}
