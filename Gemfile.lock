@@ -70,6 +70,7 @@ GEM
       ruby_parser (>= 2.0.5)
     mime-types (1.16)
     multi_json (1.0.3)
+    pg (0.11.0)
     polyglot (0.3.2)
     pry (0.9.3)
       coderay (>= 0.9.8)
@@ -155,6 +156,7 @@ DEPENDENCIES
   github_hook!
   hirb
   jquery-rails
+  pg
   pry
   rails (= 3.1.0)
   rspec-rails
